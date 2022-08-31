@@ -3,3 +3,6 @@ node_modules/
 Cheat*
 *.env
 *.pem
+__pycache__/
+*.pyc
+.ipynb_checkpoints

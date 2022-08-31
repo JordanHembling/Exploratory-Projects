@@ -1,3 +1,5 @@
 .env
 env/
 utilities/properties.ini
+ __pycache__/
+ *.pyc
