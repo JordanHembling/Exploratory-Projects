@@ -7,4 +7,5 @@ Projects \
   ── [astro](https://github.com/JordanHembling/Projects/tree/master/astro)\
   ── [dbt_fundamentals](https://github.com/JordanHembling/Projects/tree/master/dbt_fundamentals)\
   ── [pandas-exploration](https://github.com/JordanHembling/Projects/tree/master/pandas-exploration)\
-  ── [python-exploration](https://github.com/JordanHembling/Projects/tree/master/python_exploration)
+  ── [python-exploration](https://github.com/JordanHembling/Projects/tree/master/python_exploration) \
+  ── [docker-exploration](https://github.com/JordanHembling/Projects/tree/master/Docker-Exploration)
