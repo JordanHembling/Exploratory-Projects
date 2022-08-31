@@ -4,7 +4,7 @@ from utilities.configurations import *
 
 se = requests.session()
 token = getConfig()['API Github']['TOKEN']
-print(token)
+
 se.headers.update({'Authorization': token})
 
 url = getConfig()['API Github']['URL']

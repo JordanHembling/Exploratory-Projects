@@ -2,6 +2,7 @@ import configparser
 import os
 
 from snowflake.snowpark import Session
+from snowflake.snowpark.functions import current_session
 from os.path import join, dirname
 from dotenv import load_dotenv
 
@@ -28,6 +29,10 @@ def getSFConn():
     "rolename": os.getenv('SF_ROLENAME')
     }
 
-    session = Session.builder.configs(connection_params).create()
-
-    return session
+    try:
+        session = Session.builder.configs(connection_params).create()
+        if session.create_dataframe([1]).select(current_session()).collect():
+            print("Connection Successful")
+            return session
+    except:
+        print("Unable to connect")
