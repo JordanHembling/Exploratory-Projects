@@ -1,5 +1,0 @@
-consumerKey SEGCleF0vRUtyRzDATqeW7zi3
-consumerSecret NXfLrQrP8AqxX3XGsJGlU3T0STYQtK09kbuOowuAeQi3eEOfRt
-accessToken 1095445175055183877-ygYbZ3mCJFuhq7NMEydFBhDDlNQzgF
-accessTokenSecret fHYpvSB0Qz2dzf6JniWkI8hD21ponfgLBFrbGCpIFApgS
-
