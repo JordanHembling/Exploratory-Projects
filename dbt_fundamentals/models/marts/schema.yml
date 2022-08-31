@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+    - name: fct_customer_orders
+      description: '{{ doc("table_orders") }}'
+
+      columns:
+        - name: order_id
+          tests:
+            - unique 
